@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            Hello, Title!
+        </title>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const buttons = document.querySelectorAll('button');
+
+                for (let i = 0; i < buttons.length; i++) {
+                    buttons[i].addEventListener('click', () => {
+                        let div = document.getElementById('div1');
+                        if (div.style.visibility == 'hidden') {
+                            div.style.visibility = 'visible';
+                        }
+                        else {
+                            div.style.visibility = 'hidden';
+                        }
+                    });
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <div class="mx-auto" id="div1">
+                <p>Hello, World!</p>
+            </div>
+            <button>
+                Hide/Show
+            </button>
+        </main>
+</html>
