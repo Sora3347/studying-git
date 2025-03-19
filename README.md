@@ -9,3 +9,7 @@ Foo Bar Baz.
 Interesting description.
 
 We live in a society.
+
+## Local Development
+
+1. Open hello.html in your browser.
