@@ -18,7 +18,7 @@ int main(void)
 long power(int x, int y)
 {
     long result = x;
-    for (int i = 0; i < y; i++)
+    for (int i = 0; i < y - 1; i++)
     {
         result *= x;
     }

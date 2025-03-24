@@ -15,4 +15,5 @@ We live in a society.
 1. Open hello.html in your browser.
 
 2. Deny your destiny.
-2. Accept your destiny.
+
+3. Accept your destiny.
